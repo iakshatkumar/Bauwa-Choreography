@@ -180,6 +180,12 @@ header .row .col-md-7 button:hover{
     text-decoration: none;
 }
 
+.section-2 .more a{
+    font-weight: bold;
+    padding-top: -9vmin !important;
+    padding-bottom: 12vmin;
+}
+
 
 /* section 2 ends */
 

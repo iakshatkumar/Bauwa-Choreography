@@ -1,3 +1,10 @@
+@media only screen and (max-width: 1024px) {
+  .section-1 .cards {
+    margin-left: -31vmin;
+  }
+}
+
+
 @media only screen and (max-width: 768px) {
   header .navbar-brand {
     padding-left: 10vmin;
@@ -17,6 +24,7 @@
   }
 }
 
+
 @media only screen and (max-width: 425px) {
   header .content {
     margin-top: -90px;
@@ -27,7 +35,7 @@
   }
 
   .section-1 .cards {
-    margin-left: -144px;
+    margin-left: -47vmin;
   }
 
   .section-2 .cards .card img {
@@ -68,7 +76,7 @@
   }
 
   .section-1 .cards {
-    margin-left: -56.5vmin !important;
+    margin-left: -55vmin !important;
   }
 
   .section-2 .cards .card img {
@@ -94,7 +102,7 @@
   }
 
   .section-1 .cards {
-    margin-left: -204px;
+    margin-left: -64.7vmin !important;
   }
 
   .section-3 .row {
