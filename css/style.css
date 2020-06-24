@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+* {
+  box-sizing: border-box;
+}
+
+header,
+section{
+    overflow-x: hidden;
+}
+
+
+:root{
+    --Sniglet-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive;
+  --light-black: #2e2c2caf;
+  --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+  --light-gray: rgba(255,255,255,0.877);
+}
+
+header{
+    background:   #dd2476;
+    background: var(--bggradient);
+}
+
+
+header a{
+    font-family: var(--Sniglet-font);
+    color: whitesmoke;
+    font-size: 1.2em;
+}
+
+header .nav-item:last-child{
+    padding-right: 10.5em;
+}
+
+header .nav-item{
+    padding: 0.9em;
+}
+
+header .navbar-brand{
+    padding-left: 8rem;
+    font-size: 1.5em;
+}
+
+header .nav-link:hover{
+    color: black;
+}
+
+header .navbar-brand:hover{
+    color: black;
+    
+}
+
+header .navbar .navbar-toggle-icon{
+   
+    color:white !important;
+    background: white !important;
+    
+}
+
+header .row .col-md-7 {
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+}
+
+header .row .col-md-5{
+    padding: 10vmin 1vmin;
+}
+
+header .row .col-md-5 img{
+    width: 73%;
+}
+
+header .row .col-md-7{
+    font-family: var(--Rubik);
+}
+
+header .row .col-md-7 h1{
+    color: white;
+    letter-spacing: 5px;
+    padding: 3vmin;
+}
+
+header .row .col-md-7 p{
+    color: whitesmoke;
+    letter-spacing: 1px;
+}
+
+header .row .col-md-7 button{
+    padding: 2vmin;
+    text-transform: uppercase;
+    font-family: var(--Rubik);
+    margin-top: 20px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    box-shadow:1px 2px 50px 0px rgba(0, 0, 0, 0.349) ;
+
+}
+
+header .row .col-md-7 button:hover{
+    color: whitesmoke;
+    background: var(--bggradient);
+}
+
+
+/* section-1 starts*/
+
+.section-1 {
+    padding: 7vmin 1vmin;
+}
+
+.section-1 .content{
+    font-family: var(--Rubik);
+}
+
+.section-1 .content p{
+    padding-top: 2vmin;
+    color: var(--light-black);
+    font-weight: lighter;
+}
+
+.section-1 .card{
+    box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
+    margin-left: 87px;
+}
+
+.section-1 .card .card-body h6{ 
+    padding: 2vmin;
+    font-family: var(--Rubik);
+    background: whitesmoke;
+}
+
+
+
+.section-1 .card .card-body p{
+    padding: 1vmin;
+    font-family: var(--Sniglet-font);
+    color: var(--light-black);
+    font-size: 14px;
+}
+
+.section-1 .card .card-body a{
+    text-decoration: none;
+}
+
+/* section 1 ends */
+
+/* section 2 starts */
+.section-2{
+    padding: 10vmin 1vmin;
+    padding-bottom: 20vmin;
+}
+
+.section-2 .content{
+    font-family: var(--Rubik);
+}
+
+.section-2 .content p{
+    padding: 1vmin;
+    color: var(--light-black);
+}
+
+.section-2 .card{
+    
+    position: relative;
+    margin-top: 10vmin;
+    box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
+}
+
+.section-2 .card .row .col-md-8{
+    font-family: var(--Sniglet-font);
+    color: var(--light-black);
+}
+
+.section-2 .card .row .col-md-8 a{
+    font-weight: bold;
+    font-family: var(--Rubik);
+    text-decoration: none;
+}
+
+
+/* section 2 ends */
+
+/* section 3 starts */
+
+.section-3{
+    padding: 20vmin 1vmin;
+    background: whitesmoke;
+}
+
+.section-3 .content{
+    font-family: var(--Rubik);
+    margin-top: -10vmin;
+    padding: 10vmin 1vmin;
+}
+
+.section-3 .content p{
+    color: var(--light-black);
+}
+
+
+.section-3 form .input-textbox{
+    padding: 0vmin 1vmin;
+    margin-right: -20px;
+}
+
+.section-3 form{
+    margin-left: 225px;
+}
+
+.section-3 form button:hover{
+    color: whitesmoke;
+    background: var(--bggradient);
+    text-decoration: none;
+    border-style: none;
+}
+/* section 3 ends */
+
+footer{
+    background: var(--bggradient);
+    padding: 10vmin 1vmin;
+    padding-bottom: 10vmin;
+}
+
+footer .social i{
+    text-align:center;
+    color: whitesmoke;
+    letter-spacing: 20px;
+    font-size: 5.5vmin;
+    margin-left: 20px;
+    padding-bottom: 5vmin ;
+    padding-top: 5vmin;
+}
+
+footer .social i:hover{
+    color: black;
+}
+footer .site-logo i:hover{
+    color: black;
+}
+
+footer .site-logo i{
+    color: whitesmoke;
+}
+footer .para a{
+    text-decoration: none;
+}
+
+footer .main-footer .site-logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+footer .main-footer .site-logo a:hover{
+    color: black;
+}

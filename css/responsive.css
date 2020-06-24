@@ -1,0 +1,107 @@
+@media only screen and (max-width: 768px) {
+  header .navbar-brand {
+    padding-left: 10vmin;
+  }
+
+  header .content {
+    margin-top: -45px;
+  }
+
+  .section-1 .cards {
+    padding-left: 0;
+    margin-left: -180px;
+  }
+
+  .section-3 .row {
+    margin-left: -80px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  header .content {
+    margin-top: -90px;
+  }
+
+  header .content p {
+    padding: 0vmin 20vmin;
+  }
+
+  .section-1 .cards {
+    margin-left: -144px;
+  }
+
+  .section-2 .cards .card img {
+    padding-right: 2vmin;
+  }
+
+  .section-3 form {
+    margin-left: 175px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  header .navbar-brand {
+    padding: 1rem;
+  }
+
+  header .content {
+    padding: 0;
+    margin-top: -95px;
+  }
+
+  header .content h1 {
+    font-size: 26px;
+  }
+
+  header .content p {
+    margin: 0px 8px;
+    font-size: 14px;
+  }
+
+  header .row .col-md-7 button {
+    margin-top: 10px;
+    font-size: small;
+  }
+
+  header .row .col-md-5 img {
+    margin-top: -100px;
+  }
+
+  .section-1 .cards {
+    margin-left: -170px;
+  }
+
+  .section-2 .cards .card img {
+    padding-right: 2vmin;
+  }
+
+  .section-3 .row {
+    margin-left: -170px;
+  }
+
+  .section-1 .cards {
+    margin-left: -174px;
+  }
+
+  .section-3 form {
+    margin-left: 220px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  header .content p {
+    padding: 0.8vmin;
+  }
+
+  .section-1 .cards {
+    margin-left: -204px;
+  }
+
+  .section-3 .row {
+    margin-left: -190px;
+  }
+
+  .section-3 form {
+    margin-left: 220px;
+  }
+}
