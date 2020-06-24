@@ -68,7 +68,7 @@
   }
 
   .section-1 .cards {
-    margin-left: -160px;
+    margin-left: -56vmin !important;
   }
 
   .section-2 .cards .card img {
